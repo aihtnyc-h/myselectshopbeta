@@ -84,6 +84,8 @@ public class AllInOneController {
         return products;
     }
 
+
+
     // 관심 상품 최저가 등록하기
     @PutMapping("/products/{id}")
     public Long updateProduct(@PathVariable Long id, @RequestBody ProductMypriceRequestDto requestDto) throws SQLException {
